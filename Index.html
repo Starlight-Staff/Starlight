@@ -1,15 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style type="css"></style>
 </head>
-<body>
+ <body>
+ <script src="jquery-3.4.0.min.js"></script>
+
+<!-- script below -->
+<script type="text/javascript">
+  $("document").ready(function(){
+  $("button").click(function(){
+  if($("button").text() == "☰"){
+  $("button").text("✖");
+}else{        
+  $("button").text("☰");      
+}
+  });
+});
+$("li").toggle("slow");
+</script>
 	<h1>
 		Starlight-Lounge
 	</h1>
-<ul>
-  <li><a href="default.asp">*/Home</a></li>
-  <li><a href="news.asp">*/Submit_a_request</a></li>
-  <li><a href="about.asp">*/About_us</a></li>
-</ul>
-</body>
+  <nav>
+	<ul>
+  	  <li><a href="#home">Home</a></li>
+  	  <li><a href="#submit_a_request">Submit a request</a></li>
+  	  <li><a href="#About_us">Aboutus</a></li>
+	  <li>{
+  	    list-style-type: none;
+		    }
+	  
+	  <a>{
+  	   text-decoration: none;
+	     }</a>
+		
+	<ul>{
+  	    margin: 0;
+  		padding: 0;
+	        }
+
+		<body>{
+  			margin: 0;
+			  }</body>
+    </ul>
+        <nav>{
+		  width: 100vw;
+  		  background-color: #D6EFFF;
+  				}</nav>
+  	<ul>{
+  margin: 0;
+  padding: 0;
+  display: flex;
+		  }</ul>
+    <i>{
+  list-style-type: none;  
+  margin: 0 2vw;
+}</i>
+
+<a>{
+  text-decoration: none;
+  
+  color: green;
+  padding: 2vw;
+  font-family: monospace;
+}</a>
+
+<a>:hover{
+  background-color: #C6E9FF;
+}</a>
+
+@media only screen and (max-width: 500px) {
+  <ul>{
+    flex-direction: column;
+  }</ul>
+  
+  
+  <li>{
+    margin: 0;
+  }</li>
+ 
+  <a>{
+    display: block;
+  }</a>
+
+  </nav>
+  <nav>
+  <ul>
+      <!-- button here -->
+      <button> 🞬 </button>
+    <li> 
+      <!-- link one -->
+      <a href="#aboutUe"> About Me </a>
+    </li>
+   </nav>
+
+<button>{
+  display: none;
+}</button>
+
+@media only screen and (max-width: 500px) {
+   ....
+  
+  <button>{
+    display: block;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #AFE0FF;
+    border: none;
+    outline: none;
+    
+    cursor: pointer;
+  }</button>
+}
+
+<button>{
+    display: block;
+    ...
+    cursor: pointer;
+    
+    /*this put the button on the left*/
+    align-self: flex-start;
+  }</button>
+ </body>
 </html>
