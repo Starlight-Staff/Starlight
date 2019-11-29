@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="css"></style>
+	<style type="css">
+body {background-color:#09B5FE;}
+h1   {color: blue;}
+p    {color: red;}</style>
 </head>
  <body>
  <script src="jquery-3.4.0.min.js"></script>
@@ -26,71 +29,71 @@ $("li").toggle("slow");
 	<ul>
   	  <li><a href="#home">Home</a></li>
   	  <li><a href="#submit_a_request">Submit a request</a></li>
-  	  <li><a href="#About_us">About Us</a></li>
-	  <li>{
+  	  <li><a href="#About_us">Aboutus</a></li>
+	 li{
   	    list-style-type: none;
 		    }
 	  
-	  <a>{
+	  a{
   	   text-decoration: none;
-	     }</a>
+	     }
 		
-	<ul>{
+	  ul{
   	    margin: 0;
-  		padding: 0;
+  		  padding: 0;
 	        }
 
-		<body>{
+		body{
   			margin: 0;
-			  }</body>
-    </ul>
+			  }
 
-<nav>{
-		  width: 100vw;
+    </ul>
+        nav{
+		    width: 100vw;
   		  background-color: #D6EFFF;
-  				}</nav>
-  	<ul>{
+  				}
+  	ul{
   margin: 0;
   padding: 0;
   display: flex;
-		  }</ul>
-    <i>{
+		  }
+    i{
   list-style-type: none;  
   margin: 0 2vw;
-}</i>
+}
 
-<a>{
+a{
   text-decoration: none;
   
   color: green;
   padding: 2vw;
   font-family: monospace;
-}</a>
+}
 
-<a>:hover{
+a:hover{
   background-color: #C6E9FF;
-}</a>
+}
 
 @media only screen and (max-width: 500px) {
-  <ul>{
+  ul{
     flex-direction: column;
-  }</ul>
+  }
   
   
-  <li>{
+  li{
     margin: 0;
-  }</li>
+  }
  
-  <a>{
+  a{
     display: block;
-  }</a>
+  }
 
   </nav>
   <nav>
   <ul>
       <button> 🞬 </button>
     <li> 
-      <a href="#aboutUe"> About Me </a>
+      <a href="#aboutMe"> About Me </a>
     </li>
    </nav>
 
@@ -117,7 +120,6 @@ $("li").toggle("slow");
     display: block;
     ...
     cursor: pointer;
-    align-self: flex-start;
   }</button>
  </body>
 </html>
